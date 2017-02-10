@@ -1,8 +1,23 @@
-<h2 class="text-center">Fan Findr</h2>
+<div id="fanFinderWrapper">
+	<div class="content">
+		<!-- Google Maps -->
+		<div id="map"></div>
 
-<!-- Google Maps -->
-<div id="map"></div>
-    <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
-         <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
-    </div>
+
+		<form name="myForm" id="fanDataInput">
+			<input class="cityInput" type="text" name="cityName" placeholder="Please Enter City">
+
+		    <select name="singleSelect" ng-model="data.singleSelect" class="teamSelect">
+		    	<option value="">Please select team</option>
+		      <option value="option-1">Option 1</option>
+		      <option value="option-2">Option 2</option>
+		    </select>
+		  </form>
+		
+	</div>
+	
+</div>
+
+
+
 

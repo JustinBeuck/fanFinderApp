@@ -3,12 +3,31 @@
 Functions
 
 ******************************************************************/
+#fanFinderWrapper {
+	h2{
+		color: #333;
+		font-size:2em;
+		font-weight: 700;
+		padding-top: 5%;
+	}
+}
+
+.content {
+padding-top: 2%;
+	display: flex;
+		justify-content: center;
+}
 #map {
     height:420px;
-    width:600px;
+    width:65%;
+
 }
 .infoWindowContent {
     font-size:  14px !important;
     border-top: 1px solid #ccc;
     padding-top: 10px;
+}
+
+#fanDataInput {
+ margin-left: 2%;
 }

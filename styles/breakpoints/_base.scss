@@ -11,7 +11,8 @@ GENERAL STYLES
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	background-color: $gray;
+	background: #fff url(http://static.nfl.com/static/content/public/static/img/head/nov-30-2016-background.jpg) no-repeat top center;
+	background-position-y: -131px;
 	color: $text-color;
 	font-family: $font;
 	font-size: 100%;
@@ -110,7 +111,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $white;
+	background-color: transparent;
 }
 
 #inner-header {
