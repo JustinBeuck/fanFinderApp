@@ -5,7 +5,6 @@
  * or you can have separate controllers for each logical section
  * 
  */
-;(function() {
 
   angular
     .module('boilerplate')
@@ -107,5 +106,3 @@ var cities = [
     //   });
   }
 
-
-})();
